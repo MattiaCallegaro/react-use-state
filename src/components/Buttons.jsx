@@ -1,6 +1,7 @@
 import React from 'react'
-import languages from './components/data/languages'
+
 import { useState } from 'react'
+import languages from './data/languages';
 
 function Buttons() {
     //creo uno stato isOpen per tenere traccia dell'id selezionato
