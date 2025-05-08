@@ -1,10 +1,10 @@
 import React from 'react'
 import Languages from './Languages'
 
-function Header() {
+function Buttons() {
     return (
-        <div><Languages /></div>
+        <div>Buttons</div>
     )
 }
 
-export default Header
+export default Buttons
