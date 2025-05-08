@@ -1,5 +1,5 @@
 import React from 'react'
-import Languages from '../Languages'
+import languages from './data/languages'
 
 function Header() {
     return (

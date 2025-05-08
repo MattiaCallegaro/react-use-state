@@ -2,7 +2,7 @@ import React from 'react'
 import languages from './components/data/languages'
 
 function Buttons() {
-    return (
+    return (<>
         <div>
             {languages.map((language) => (
                 <button>
@@ -10,6 +10,8 @@ function Buttons() {
                 </button>
             ))}
         </div>
+        <label className='card'> ciao</label>
+    </>
     )
 }
 
