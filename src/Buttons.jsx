@@ -14,7 +14,14 @@ function Buttons() {
             <div>
                 {languages.map((language) => (
                     //assegno id come key a button e creo evento click impostando id selezionato
-                    <button key={language.id} onClick={() => setIsOpen(language.id)}>
+                    <button
+                        key={language.id}
+                        onClick={() => setIsOpen(language.id)}
+                        style={{
+                            //operatore terniario: se isOpen è uguale a id allora giallo altimenti blue
+                            backgroundColor: isOpen === language.id ? '#ffff00' : '#1472f6'
+                        }}
+                    >
                         <h3>{language.title}</h3>
                     </button>
                 ))}
