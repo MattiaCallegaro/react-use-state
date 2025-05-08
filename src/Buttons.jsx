@@ -1,9 +1,15 @@
 import React from 'react'
-import Languages from './Languages'
+import languages from './components/data/languages'
 
 function Buttons() {
     return (
-        <div>Buttons</div>
+        <div>
+            {languages.map((language) => (
+                <button>
+                    <h3>{language.title}</h3>
+                </button>
+            ))}
+        </div>
     )
 }
 
