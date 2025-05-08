@@ -19,7 +19,7 @@ function Buttons() {
                         onClick={() => setIsOpen(language.id)}
                         style={{
                             //operatore terniario: se isOpen è uguale a id allora giallo altimenti blue
-                            backgroundColor: isOpen === language.id ? '#ffff00' : '#1472f6'
+                            backgroundColor: isOpen === language.id ? '#e1b917' : '#1472f6'
                         }}
                     >
                         <h3>{language.title}</h3>
